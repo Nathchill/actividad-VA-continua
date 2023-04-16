@@ -8,7 +8,7 @@ Teniendo en cuenta lo información dada en la siguiente tabla:
 | ---  | ----| --- | --- | --- | --- |
 | **VA continuas**  | 2 | 5 | 1 | 4 | 3 |
 | **Uniforme**  | 5 | 4 | 3 | 2 | 1 |
-| **Exponencial**  |  |  |  |  |  |
+| **Exponencial**  | 3 | 1 | 2 | 5 | 4 |
 | **Normal**  |  |  |  |  |  |
 
 Resuelva cada uno de los problemas claramente a **mano** (tal y como se vio en clase) y usando **python**. Los problemas resueltos a mano deberan ser entregados en clase en hojas mostrando la solución de manera clara, ordenada y bien explicada. Las notebooks de python (archivos con extención **ipynb**) que implementan la solución de los problemas que se la asigno, deberan ser subidos a este repositorio en una carpeta con las iniciales del autor y dentro de esta con los nombres de los archivos siguiendo el siguiente formato de acuerdo a la distribución que se toco y el numero que se le asigno:
@@ -107,7 +107,7 @@ sss
    * Encuentre $P[|X| \leq 1/2]$
    * ¿Cual es el valor de $a$ para el que $P[X \leq a] = 0.8$?
 
-### Distribución de probabilidad uniforme
+### Distribución uniforme
 
 1. El artículo "Modeling Sediment and Water Column Interactions for Hidrophobic Pollutants" (Water Research, 1984: 1169–1174) sugiere la distribución uniforme en el intervalo (7.5, 20) como modelo de profundidad (cm) de la capa de bioturbación en sedimento en una región.
    * ¿Cuáles son la media y la varianza de la profundidad?
@@ -134,15 +134,32 @@ sss
    * ¿Cuál es la probabilidad de que una medición particular de tiempo de llegada sea precisa con tolerancia de no más de $0.01 \mu s$? (**Rta**: 2/7)
    * Encuentre la media y varianza de los errores de medición. (**Rta**: $\mu = 0.015$; $V(Y) = 0.00041$)
 
-### 
+### Distribución exponencial
 
-1. (Rev) Los datos recogidos en el Aeropuerto Internacional Toronto Pearson sugiere que una distribución exponencial con valor medio de 2.725 horas es un buen modelo para la duración de la lluvia (Urban Stormwater Management Planning with Analytical Probabilistic Models, 2000, p. 69).
+1. Los datos recogidos en el Aeropuerto Internacional Toronto Pearson sugiere que una distribución exponencial con valor medio de 2.725 horas es un buen modelo para la duración de la lluvia (Urban Stormwater Management Planning with Analytical Probabilistic Models, 2000, p. 69).
    * ¿Cuál es la probabilidad de que la duración de un evento de lluvia en este lugar particular, sea por lo menos 2 horas? ¿A lo más 3 horas? ¿Entre 2 y 3 horas? (**Rta**: 0.480, 0.667, 0.147)
-   * ¿Cuál es la probabilidad de que la duración de la lluvia supere el valor medio por más de dos desviaciones estándar? ¿Cuál es la probabilidad de que sea menor que el valor medio en más de una desviación estándar? (**Rta**: 0.30, 0)
+   * ¿Cuál es la probabilidad de que la duración de la lluvia supere el valor medio por más de dos desviaciones estándar? ¿Cuál es la probabilidad de que sea menor que el valor medio en más de una desviación estándar? (**Rta**: 0.050, 0)
 
+2. Sea ***X*** la distancia (m) que un animal recorre desde el sitio de su nacimiento hasta el primer territorio vacante que encuentra. Suponga que para ratas canguro con etiqueta en la cola, ***X*** tiene una distribución exponencial con parámetro $\lambda=0.1386$ (como lo sugiere el artículo "Competition and Dispersal from Multiple Nests", Ecology, 1997: 873–883).
+   * ¿Cuál es la probabilidad de que la distancia sea cuando mucho de 100 m? ¿Cuando mucho de 200 m? ¿Entre 100 y 200 m? (**Rta**: 0.7499, 0.9375, 0.1876)
+   * ¿Cuál es la probabilidad de que la distancia exceda la distancia media por más de 2 desviaciones estándar? (**Rta**: 0.0498)
+   * ¿Cuál es el valor de la distancia mediana? (**Rta**: 50.01m)
+  
+3. En estudios de medicamentos contra el cáncer se encontró que si a los ratones se les inyectan células cancerosas, el tiempo de supervivencia se puede modelar con la distribución exponencial. Sin tratamiento el tiempo de supervivencia esperado fue de 10 h.
+   * ¿Cuál es la probabilidad de que un raton seleccionado aleatoriamente sobreviva al menos 8 h?, ¿a lo sumo 12 h?, ¿entre 8 y 12 h? (**Rta**: 0.4493, 0.6988, 0.1481)
+   * ¿Cuál es la probabilidad de que el tiempo de supervivencia de un ratón excede el valor medio en más de 2 desviaciones estándar? ¿Más de 3 desviaciones estándar? (**Rta**: 0.0498, 0.0183)
+  
+4. Sea ***X = el tiempo entre dos llegadas sucesivas a la ventanilla de una sede bancaria***. Si X tiene una distribución exponencial con $\lambda = 1$
+   * El tiempo esperado entre dos llegadas sucesivas (**Rta**: 1)
+   * La desviación estandar del tiempo entre dos llegadas sucesivas (**Rta**: 1)
+   * $P(X \leq 4)$ (**Rta**: 0.982)
+   * $P(2 \leq X \leq 5)$ (**Rta**: 0.129)
 
- 
+5. El operador de una estación de bombeo ha observado que la demanda de agua durante las primeras horas de la tarde tiene una distribución aproximadamente exponencial con media de 100 pcs (pcs cúbicos por segundo).
+   * Encuentre la probabilidad de que la demanda sea mayor que 200 pcs durante las primeras horas de la tarde en un día seleccionado al azar.
+   * ¿Qué capacidad de bombeo de agua debe mantener la estación durante las primeras horas de la tarde para que la probabilidad de que la demanda sea mayor que la capacidad en un día seleccionado al azar sea de sólo 0.01?
 
+### Distribución normal
 
 <!--
 
