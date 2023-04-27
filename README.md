@@ -155,11 +155,32 @@ sss
    * $P(X \leq 4)$ (**Rta**: 0.982)
    * $P(2 \leq X \leq 5)$ (**Rta**: 0.129)
 
-5. El operador de una estación de bombeo ha observado que la demanda de agua durante las primeras horas de la tarde tiene una distribución aproximadamente exponencial con media de 100 pcs (pcs cúbicos por segundo).
-   * Encuentre la probabilidad de que la demanda sea mayor que 200 pcs durante las primeras horas de la tarde en un día seleccionado al azar.
-   * ¿Qué capacidad de bombeo de agua debe mantener la estación durante las primeras horas de la tarde para que la probabilidad de que la demanda sea mayor que la capacidad en un día seleccionado al azar sea de sólo 0.01?
+5. El operador de una estación de bombeo ha observado que la demanda de agua durante las primeras horas de la tarde tiene una distribución aproximadamente exponencial con media de 100 pcs (pies cúbicos por segundo).
+   * Encuentre la probabilidad de que la demanda sea mayor que 200 pcs durante las primeras horas de la tarde en un día seleccionado al azar. (**Rta**: 0.1353).
+   * ¿Qué capacidad de bombeo de agua debe mantener la estación durante las primeras horas de la tarde para que la probabilidad de que la demanda sea mayor que la capacidad en un día seleccionado al azar sea de sólo 0.01? (**Rta**: 460.52 pcs).
 
 ### Distribución normal
+
+1. Un experimentador publicó en la revista **Annals of Botany** un articulo en el que investigó si los diámetros de tallos del girasol dicotiledónea cambiarían, dependiendo de si la planta fue dejada para balancearse libremente en el viento o estaba artificialmente sostenida. Suponga que los diámetros de tallos no soportados en la base, de una especie particular de girasol, tienen una distribución normal con
+un diámetro promedio de 35 milímetros (mm) y una
+desviación estándar de 3 mm.
+   * ¿Cuál es la probabilidad de que una planta de girasol tenga un diámetro de base de más de 40 mm? (**Rta**: 0.0477)
+   * Si dos plantas de girasol se seleccionan al azar, ¿cuál es la probabilidad de que ambas plantas tengan un diámetro de base de más de 40 mm? (**Rta**: 0.00228)
+   * ¿Dentro de qué límites esperaría usted que se encuentren los diámetros de base, con probabilidad .95? (**Rta**: 29.12 a 40.88)
+   * ¿Qué diámetro representa el 90avo percentil de la distribución de diámetros? (**Rta**: 38.84)
+
+2. Suponga que el diámetro a la altura del pecho (pulg) de árboles de un tipo está normalmente distribuido con $\mu=8.8$ y $\sigma=2.8$, como se sugiere en el artículo "Simulating a Harvester-Forwarder Softwood Thinning" (*Forest Products J.*, mayo de 1997; 36–41).
+   * ¿Cuál es la probabilidad de que el diámetro de un árbol seleccionado al azar será por lo menos de 10 pulg? ¿Y que exceda de 10 pulg? (**Rta**: 0.334)
+   * ¿Cuál es la probabilidad de que el diámetro de un árbol seleccionado al azar sea de más de 20 pulg? (**Rta**: Aproximadamente 0)
+   * ¿Cuál es la probabilidad de que el diámetro de un árbol seleccionado al azar sea de entre 5 y 10 pulg? (**Rta**: 0.5795)
+   * ¿Qué valor c es tal que el intervalo $(8.8 – c, 8.8 + c)$ incluya $98\%$ de todos los valores de diámetro? (**Rta**: 6.524)
+
+3. Suponga que la concentración de cloruro en sangre (mmol/L) tiene una distribución normal con media de 104 y desviación estándar de 5 (información en el artículo **Mathematical Model
+of Chloride Concentration in Human Blood**, *J. of Med. Engr. and Tech.*, 2006; 25–30).
+   * ¿Cuál es la probabilidad de que la concentración de cloruro sea igual a 105? ¿Sea menor que 105? ¿Sea cuando mucho de 105? (**Rta**: 0, 0.5793, 0.5793)
+   * ¿Cuál es la probabilidad de que la concentración de cloruro difiera de la media por más de 1 desviación estándar? ¿Depende esta probabilidad de los valores de $\mu$ y $\sigma$? (**Rta**: 0.3174, No)
+   * ¿Cómo caracterizaría el .1% más extremo de los valores de concentración de cloruro? (**Rta**: Menores a 88.55 y mayores a 119.45)
+
 
 <!--
 
