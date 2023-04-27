@@ -47,8 +47,8 @@ $$F_W(w)=\begin{cases}
    * ¿Cual es el valor de $a$ para el que $P[W \leq a] = 1/2$?
 
 2. Un profesor nunca termina su clase antes del final de la hora y siempre termina dentro de dos minutos después de la hora. Sea ***X = el tiempo que transcurre entre el final de la hora y el final de la disertación*** y suponga que la función de densidad de probabilidad de $X$ es:
-   
-   $$
+
+$$
    f(x)=\begin{cases}
    kx^2 & \text{; } 0 \leq x \leq 2 \\ 
    0 & \text{; eoc }
@@ -61,8 +61,8 @@ $$F_W(w)=\begin{cases}
    * ¿Cuál es la probabilidad de que la disertación continúe durante por lo menos 90 segundos después del final de la hora?
 
 3. Una gasolinera opera dos bombas, cada una de las cuales puede bombear hasta 10000 galones de gasolina en un mes. La cantidad total de gasolina bombeada en un mes es una variable aleatoria ***Y*** (medida en 10000 galones) con una función de densidad de probabilidad dada por
-   
-   $$
+
+$$
    f(y)=\begin{cases}
    y & \text{; } 0 \lt y \lt 1 \\ 
    2 - y & \text{; } 1 \leq y \lt 2 \\ 
@@ -76,8 +76,8 @@ $$F_W(w)=\begin{cases}
    * Dado que la gasolinera bombeó más de 10000 galones en un mes particular, encuentre la probabilidad de que haya bombeado más de 15000 galones durante el mes.
 
 4. El tiempo de falla (en cientos de horas) para un transistor es una variable aleatoria ***Y*** con CDF dada por:
-   
-   $$
+
+$$
    F(y)=\begin{cases}
    0 & \text{; } y \lt 0 \\ 
    1 - e^{-y^2}  & \text{; } y \geq 0 
@@ -90,8 +90,8 @@ $$F_W(w)=\begin{cases}
    * Encuentre $P(Y > 100 | Y \leq 200)$
 
 5. La función de distribución acumulativa de la variable aleatoria $X$ es:
-   
-   $$
+
+$$
    F_X(x)=\begin{cases}
    0 & \text{; } x < -1 \\ 
    (x+1)/2 & \text{; } -1 \leq x < 1 \\ 
