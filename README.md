@@ -34,14 +34,12 @@ sss
 1. La CDF de una variable aleatoria $W$ es:
    
 
-   $$
-   F_W(w)=\begin{cases}
+   $$F_W(w)=\begin{cases}
    0 & \text{; } w < -5 \\ 
    (w+5)/8 & \text{; } -5 \leq w < -3 \\ 
    1/4 +3(w-3)/8 & \text{; } -3 \leq w < 5 \\ 
    1 & \text{; } w \geq 5 
-   \end{cases}
-   $$
+   \end{cases}$$
    
    Calcule:
    * $P[W \leq 4]$
